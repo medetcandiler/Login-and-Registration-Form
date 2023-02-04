@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="button-box">
+            <div id="btn"></div>
+            <button id="loginBtn" class="toggle-btn">Login</button>
+            <button id="registerBtn" class="toggle-btn">Register</button>
+        </div>
+        <div class="icon-btn">
+            <img src="images/fb.png" alt="facebook">
+            <img src="images/gp.png" alt="google">
+            <img src="images/tw.png" alt="twitter">
+        </div>
+        <form action="#" id="login" class="input-group" autocomplete="off">
+            <input type="text" name="name" id="name" class="input-item" placeholder="Username">
+            <input type="password" name="password" id="password" class="input-item" placeholder="Password">
+            <input type="checkbox" name="checkbox" class="check-box"><span>Change or Reset Password</span>
+            <input type="button" class="sbmt-btn" value="Log In">
+        </form>
+        <form action="#" id="register" class="input-group" autocomplete="off">
+            <input type="text" name="name" id="name" class="input-item" placeholder="Full Name">
+            <input type="email" name="email" id="email" class="input-item" placeholder="E-mail adress">
+            <input type="password" name="password" id="password" class="input-item" placeholder="Create Password">
+            <input type="checkbox" name="checkbox" class="check-box"><span>I agree the terms and conditions</span>
+            <input type="button" value="Register" class="sbmt-btn">
+        </form>
+    </div>
+
+
+
+    <script src="main.js"></script>
+</body>
+</html>
