@@ -14,7 +14,7 @@ Hello Everyone. Let me briefly introduce myself to you. First of all I am so gla
 ---
 Sample of the project:
 
-![sample-of-my-project](https://github.com/medetcandiler/italian-cuisine-menu-project/blob/main/menu-project.gif)
+![sample-of-my-project]()
 
 ## Prepared by
 **Medetcan Diler**
